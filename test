@@ -1,4 +1,4 @@
-L = "Beautiful is better than ugly.\n\ Explicit is better than implicit.\n\
+L = '''Beautiful is better than ugly.\n\ Explicit is better than implicit.\n\
 Simple is better than complex.\n\
 Complex is better than complicated.\n\
 Flat is better than nested.\n\
@@ -15,10 +15,9 @@ Now is better than never.\n\
 Although never is often better than *right* now.\n\
 If the implementation is hard to explain, it's a bad idea.\n\
 If the implementation is easy to explain, it may be a good idea.\n\
-Namespaces are one honking great idea -- let's do more of those!\n"
+Namespaces are one honking great idea -- let's do more of those!\n'''
 E = "my email@gmail.com"
 L = str(L+E)
-len(L)
 print(L)
 print(len(L))
 vowels = dict.fromkeys ('aeiouy', 0)
